@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -7,7 +11,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 110px 0;
 }
 
 .layout_margin {
@@ -126,7 +130,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  border-radius: 0 0 45px 0;
+  border-radius: 0 0 0px 0;
   padding-left: 0;
 }
 
@@ -290,7 +294,7 @@ a:focus {
           align-items: center;
   padding: 45px 0;
   background-color: #f0d43a;
-  border-radius: 0 0 0 250px;
+  border-radius: 0 0 0 0;
   background: #3b4a6b;
 }
 
@@ -307,6 +311,7 @@ a:focus {
 
 .slider_section .detail-box {
   color: #ffffff;
+  margin-left: 150px;
 }
 
 .slider_section .detail-box h1 {
@@ -412,6 +417,7 @@ a:focus {
   max-height: 175px;
 }
 
+
 .shop_section .box .detail-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -431,7 +437,28 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 100px;
   background-color: #f0d43a;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+}
+
+.shop_section .box .new1 {
+  padding: 7px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  background-color: #f37761;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
